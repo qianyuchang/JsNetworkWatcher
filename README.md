@@ -1,4 +1,4 @@
-# JsNetworkWatcher
+# JSNetworkWatcher
 a javascript tool to watch network state
 
 #Start to use
