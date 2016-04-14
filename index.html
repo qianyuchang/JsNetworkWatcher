@@ -5,6 +5,18 @@
 	<title>Document</title>
 </head>
 <body>
-	
+	<script src="netWorkWatcher.js">
+		var nw = new NetworkWatcher();
+
+	     nw.watchStart(3000); 
+
+	     nw.onNetworkOffline=function() {
+	        alert("NetworkOffline");
+	     }
+
+	     nw.onNetworkOnline=function() {
+	        alert("NetworkOnline");
+	     }
+	</script>
 </body>
 </html>
